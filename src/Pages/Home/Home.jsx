@@ -1,13 +1,16 @@
 import React from 'react';
-import "./Home.css"
-import nature10 from "../../assets/images/nature10.png";
+import StickyBar from '../../Components/StickyBar/StickyBar';
+import NavBar from '../../Components/NavBar/NavBar';
+import DisplayCards from '../../Components/DisplayCards/DisplayCards';
+import PageImage from './PageImage';
 
-export const Home = () =>  {
+export default function Home () {
   return (
-    <div className='Home'>
-      <div>
-        <img src={nature10} alt="nature" />
-      </div>
+    <div>
+      <StickyBar />
+      <NavBar />
+      <PageImage />
+      <DisplayCards />
     </div>
   )
 }

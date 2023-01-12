@@ -1,0 +1,15 @@
+.Heading__title {
+  font-family: lora;
+  padding: 70px;
+  text-align: center;
+}
+
+h3 {
+  color: #c7923e;
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 48px;
+  margin-top: -10px;
+}

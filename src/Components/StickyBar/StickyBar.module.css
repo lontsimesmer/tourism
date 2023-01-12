@@ -1,0 +1,29 @@
+.Sticky__bar {
+  background: #304f47;
+  padding: 20px;
+}
+
+.StickyBar__logo {
+  display: flex;
+  float: left;
+  gap: 15px;
+}
+
+.Sticky__icons {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.Icons__name {
+  color: #fff;
+  font-size: 12px;
+}
+
+.Circle__icons {
+  color: #fff;
+  font-size: large;
+  left: 60%;
+  letter-spacing: 20px;
+  position: relative;
+}

@@ -1,15 +1,23 @@
-import React from "react";
-import StickyBarStyle from "./StickyBar.module.css"
+import React from 'react';
+import Styles from './StickyBar.module.css'
 
-/* export default function StickyBar() {
+export default function StickyBar() {
   return (
-    <div className={StickyBarStyle.StickyBar}>
-      <div className={StickyBarStyle.StickyBar-Contacts}>
-        <span className="materials-symbols-outlined">phone-enabled</span>
-        <div className={StickyBarStyle.StickyBar-Contacts}>
-        <span className="materials-symbols-outlined"></span>
-        </div>
+    <section className={Styles.Sticky__bar}>
+      <div className={Styles.StickyBar__logo}>
+        <span className={Styles.Sticky__icons}><i class="fa-solid fa-phone-flip"></i></span>
+        <span className={Styles.Icons__name}>+250 784 688 641</span>
       </div>
-    </div>
-  );
-} */
+      <div className={Styles.StickyBar__logo}>
+        <span className={Styles.Sticky__icons}><i class="material-symbols-outlined">mail</i></span>
+        <span className={Styles.Icons__name}>bbonteemma@gmail.com</span>
+      </div>
+      <div>
+        <span className={Styles.Circle__icons}><i class="fa-brands fa-facebook-f"></i></span>
+        <span className={Styles.Circle__icons}><i class="fa-brands fa-twitter"></i></span>
+        <span className={Styles.Circle__icons}><i class="fa-brands fa-linkedin-in"></i></span>
+        <span className={Styles.Circle__icons}><i class="fa-brands fa-instagram"></i></span>
+      </div>
+    </section>
+  )
+}
