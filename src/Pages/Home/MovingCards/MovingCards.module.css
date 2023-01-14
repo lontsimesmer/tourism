@@ -1,0 +1,59 @@
+.Moving__cards {
+  margin: 0;
+  padding: 0;
+}
+
+.Header__title {
+  font-family: lora;
+  padding: 70px;
+  text-align: center;
+}
+
+.Header__title h3 {
+  margin-top: -40px;
+}
+
+.Arrow__button {
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+  margin-right: 70px;
+  position: relative;
+}
+
+.Arrow__button img {
+  width: 50px;
+}
+
+.Moving__cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.City img {
+  height: 280px;
+  width: 280px;
+}
+
+.City h5 {
+  bottom: 3%;
+  font-size: 39px;
+  padding-left: 30px;
+  position: relative;
+  right: 10%;
+}
+
+.City p {
+  bottom: 8%;
+  color: #9a9ab0;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: -20px;
+  padding-left: 30px;
+  position: relative;
+  right: 10%;
+  width: 95%;
+}
