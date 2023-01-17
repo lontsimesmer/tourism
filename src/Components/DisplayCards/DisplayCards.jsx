@@ -52,8 +52,10 @@ export default function DisplayCards() {
           <div className={Styles.Card}>
             <img src={Card.image} alt='cards' />
             <h5>{Card.title}</h5>
-            <p>{Card.description}</p>
-            <button className={Styles.LearnMore__btn}>Learn more</button>
+            <div className={Styles.Button__space}>
+              <p>{Card.description}</p>
+              <button className={Styles.LearnMore__btn}>Learn more</button>
+            </div>
           </div>
         ))}
       </div>
@@ -62,8 +64,10 @@ export default function DisplayCards() {
           <div className={Styles.Card}>
             <img src={Card.image} alt='cards' />
             <h5>{Card.title}</h5>
-            <p>{Card.description}</p>
-            <button className={Styles.LearnMore__btn}>Learn more</button>
+            <div className={Styles.Button__space}>
+              <p>{Card.description}</p>
+              <button className={Styles.LearnMore__btn}>Learn more</button>
+            </div>
           </div>
         ))}
       </div>

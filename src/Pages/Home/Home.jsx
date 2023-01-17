@@ -5,7 +5,7 @@ import DisplayCards from '../../Components/DisplayCards/DisplayCards';
 import PageImage from './PageImage/PageImage';
 import MovingCards from './MovingCards/MovingCards';
 import Testimony from './Testimony/Testimony';
-
+import Footer from '../../Components/Footer/Footer';
 
 export default function Home () {
   return (
@@ -14,8 +14,9 @@ export default function Home () {
       <NavBar />
       <PageImage />
       <DisplayCards />
-      <MovingCards/>
+      <MovingCards />
       <Testimony />
+      <Footer />
     </div>
   )
 }

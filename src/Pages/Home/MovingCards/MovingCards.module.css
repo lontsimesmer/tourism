@@ -27,21 +27,23 @@
 
 .Moving__cards {
   display: flex;
-  gap: 30px;
+  gap: 25px;
   justify-content: center;
   margin: 50px auto;
-  width: 80%;
+  width: 10%;
 }
 
 .City img {
-  height: 280px;
-  width: 280px;
+  border: 5px solid #304f43;
+  border-radius: 50px;
+  height: 270px;
+  width: 270px;
 }
 
 .City h5 {
   bottom: 3%;
   font-size: 39px;
-  padding-left: 30px;
+  padding-left: 38px;
   position: relative;
   right: 10%;
 }
@@ -49,10 +51,11 @@
 .City p {
   bottom: 8%;
   color: #9a9ab0;
+  font-family: Mulish;
   font-size: 16px;
   margin: 0 auto;
   margin-bottom: -20px;
-  padding-left: 30px;
+  padding-left: 38px;
   position: relative;
   right: 10%;
   width: 95%;

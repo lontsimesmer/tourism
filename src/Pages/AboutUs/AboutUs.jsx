@@ -1,16 +1,24 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import StickyBar from '../../Components/StickyBar/StickyBar';
+import NavBar from '../../Components/NavBar/NavBar';
+/* import { Link, useNavigate } from 'react-router-dom'; */
 
-export default function About() {
-  const navigate = useNavigate();
+export default function AboutUs () {
+  return (
+    <div>
+      <StickyBar/>
+      <NavBar />
+    </div>
+  )
+  /* const navigate = useNavigate();
 
   const goAfter = () => {
     setTimeout(() => {
       navigate('/');
     }, 5000);
-  }
+  } */
 
-  return (
+  /* return (
     <>
       <h1>About Page</h1>
       <Link to="/">Go Back</Link>
@@ -18,5 +26,5 @@ export default function About() {
         go after 5
       </button>
     </>
-  );
+  ); */
 }

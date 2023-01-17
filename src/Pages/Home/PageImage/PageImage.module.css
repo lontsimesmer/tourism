@@ -8,28 +8,31 @@
 
 .Image__text {
   padding: 140px;
+  width: 50%;
 }
 
 .Image__text h1 {
   color: #fff;
-  font-family: lora;
+  font-family: Lora;
   font-size: 62px;
-  margin-right: 45%;
 }
 
 .Image__text h2 {
   color: #fff;
-  font-family: ubuntu;
+  font-family: Mulish;
   font-size: 18px;
   font-weight: 400;
-  margin-top: -30px;
+  margin-top: -40px;
 }
 
-.ArrowBack__icon {
-  float: left;
-  font-size: x-large;
-  left: 50%;
-  position: relative;
+.Arrow__icons {
+  display: flex;
+  gap: 75%;
+  justify-content: center;
+}
+
+.Arrow__icons img {
+  width: 80%;
 }
 
 .Horizontal__bar {
@@ -41,20 +44,27 @@
   left: 10%;
   padding: 0;
   position: relative;
-  top: 20%;
+  top: 13%;
   width: 80%;
 }
 
-input {
+.PageImage__input {
   border: none;
   border-radius: 8px;
+  font-family: Mulish;
   font-size: 16px;
-  height: 58px;
+  height: 56px;
   margin-top: 15px;
-  padding-left: 15px;
-  position: absolute;
-  right: 60%;
-  width: 34%;
+  padding-left: 20px;
+  position: relative;
+  right: 5%;
+  width: 350px;
+}
+
+.search__icon {
+  position: relative;
+  right: 9%;
+  top: 40%;
 }
 
 .Booknow__btn {
@@ -64,8 +74,16 @@ input {
   color: #fff;
   font-size: 16px;
   height: 55px;
-  left: 80%;
+  left: 5%;
   margin-top: 20px;
-  position: absolute;
+  position: relative;
   width: 15%;
+}
+
+.Bar__text {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+  position: relative;
+  right: 3%;
 }

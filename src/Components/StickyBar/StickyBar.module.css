@@ -1,29 +1,37 @@
 .Sticky__bar {
   background: #304f47;
-  padding: 20px;
+  padding: 15px;
 }
 
 .StickyBar__logo {
   display: flex;
   float: left;
   gap: 15px;
-}
-
-.Sticky__icons {
-  color: #fff;
-  font-size: 20px;
-  padding-left: 20px;
+  padding-left: 80px;
 }
 
 .Icons__name {
   color: #fff;
-  font-size: 12px;
+  font-family: Podkova;
+  font-size: 13px;
+  padding-top: 5px;
+  position: relative;
+  right: 2%;
+}
+
+.StickyBar__icons {
+  display: flex;
+  gap: 6px;
 }
 
 .Circle__icons {
+  border: 1.9px solid #fff;
+  border-radius: 20px;
   color: #fff;
   font-size: large;
-  left: 60%;
-  letter-spacing: 20px;
+  left: 75%;
+  padding: 2px;
+  padding-left: 5px;
   position: relative;
+  width: 18px;
 }
