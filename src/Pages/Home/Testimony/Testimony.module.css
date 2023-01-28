@@ -1,6 +1,6 @@
 .Head__title {
   font-family: lora;
-  padding-top: 5px;
+  margin-top: -50px;
   text-align: center;
 }
 
@@ -9,7 +9,7 @@
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin: 50px auto;
+  margin: 90px auto;
   width: 80%;
 }
 
@@ -17,6 +17,7 @@
   background: #304f47;
   border-radius: 30px;
   height: 50px;
+  line-height: 1.8;
   padding: 50px;
   width: 30%;
 }
@@ -43,7 +44,6 @@
 
 .Headline__title {
   font-family: lora;
-  padding-top: 20px;
   text-align: center;
 }
 
@@ -58,13 +58,13 @@ figcaption {
   display: flex;
   gap: 40px;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .Watson__image img {
   border: 5px solid #304f47;
   border-radius: 60px;
-  left: 28%;
+  left: 30%;
   margin-top: 25px;
   padding: 5px;
   position: relative;
@@ -83,7 +83,7 @@ h6 {
   color: #9a9ab0;
   font-family: mulish;
   padding-left: 35px;
-  padding-top: 15px;
+  padding-top: 25px;
   text-align: justify;
   width: 78%;
 }

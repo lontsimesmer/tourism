@@ -2,6 +2,7 @@ import React from 'react';
 import Styles from './StickyBar.module.css'
 import phone from '../../assets/images/phone.png';
 import mail from '../../assets/images/mail.png';
+import icons from '../../assets/images/icons.png';
 
 export default function StickyBar() {
   return (
@@ -13,18 +14,7 @@ export default function StickyBar() {
         <span className={Styles.Icons__name}>bbonteemma@gmail.com</span>
       </div>
       <div className={Styles.StickyBar__icons}>
-        <div className={Styles.Circle__icons}>
-          <span><i class="fa-brands fa-facebook-f"></i></span>
-        </div>
-        <div className={Styles.Circle__icons}>
-          <span><i class="fa-brands fa-twitter"></i></span>
-        </div>
-        <div className={Styles.Circle__icons}>
-          <span><i class="fa-brands fa-linkedin-in"></i></span>
-        </div>
-        <div className={Styles.Circle__icons}>
-          <span><i class="fa-brands fa-instagram"></i></span>
-        </div>
+        <img src={icons} alt="icons" />
       </div>
     </section>
   )

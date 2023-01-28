@@ -19,7 +19,7 @@
   font-size: 39px;
   font-weight: 700;
   letter-spacing: 0.5%;
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .Footer__status {
@@ -28,6 +28,7 @@
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 0.5%;
+  padding-top: 15px;
   width: 65%;
 }
 
@@ -37,7 +38,7 @@
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 0.5%;
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .Footer__subscrib {
@@ -46,7 +47,7 @@
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.005em;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .Input__area {
