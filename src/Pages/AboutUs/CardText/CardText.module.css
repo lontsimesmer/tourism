@@ -45,7 +45,7 @@
   color: #fff;
   font-size: 16px;
   height: 55px;
-  left: 10.5%;
+  left: 8%;
   margin-top: 13px;
   padding: 18px 24px 18px 24px;
   position: relative;
@@ -56,9 +56,13 @@
   display: flex;
   margin-top: 20px;
   position: relative;
-  right: 23%;
+  right: 22%;
 }
 
 .Package {
-  padding-left: 50px;
+  padding-left: 70px;
+}
+
+.Date {
+  padding-left: 20px;
 }

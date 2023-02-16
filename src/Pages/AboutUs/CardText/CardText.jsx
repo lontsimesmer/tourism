@@ -20,7 +20,7 @@ export default function CardText() {
           <div>
             <img src={adult} alt="adult" />
           </div>
-          <div>
+          <div className={Styles.Date}>
             <img src={period} alt="period" />
           </div>
           <div className={Styles.Package}>
