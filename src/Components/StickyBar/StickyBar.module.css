@@ -1,0 +1,25 @@
+.Sticky__bar {
+  background: #304f47;
+  padding: 15px;
+}
+
+.StickyBar__logo {
+  display: flex;
+  float: left;
+  gap: 15px;
+  padding-left: 80px;
+}
+
+.Icons__name {
+  color: #fff;
+  font-family: Podkova;
+  font-size: 13px;
+  padding-top: 5px;
+  position: relative;
+  right: 2%;
+}
+
+.StickyBar__icons img {
+  left: 53%;
+  position: relative;
+}

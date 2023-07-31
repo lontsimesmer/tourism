@@ -1,15 +1,21 @@
-import React from "react";
-import StickyBarStyle from "./StickyBar.module.css"
+import React from 'react';
+import Styles from './StickyBar.module.css'
+import phone from '../../assets/images/phone.png';
+import mail from '../../assets/images/mail.png';
+import icons from '../../assets/images/icons.png';
 
-/* export default function StickyBar() {
+export default function StickyBar() {
   return (
-    <div className={StickyBarStyle.StickyBar}>
-      <div className={StickyBarStyle.StickyBar-Contacts}>
-        <span className="materials-symbols-outlined">phone-enabled</span>
-        <div className={StickyBarStyle.StickyBar-Contacts}>
-        <span className="materials-symbols-outlined"></span>
-        </div>
+    <section className={Styles.Sticky__bar}>
+      <div className={Styles.StickyBar__logo}>
+        <img src={phone} alt="phone" />
+        <span className={Styles.Icons__name}>+250 784 688 641</span>
+        <img src={mail} alt="mail" />
+        <span className={Styles.Icons__name}>bbonteemma@gmail.com</span>
       </div>
-    </div>
-  );
-} */
+      <div className={Styles.StickyBar__icons}>
+        <img src={icons} alt="icons" />
+      </div>
+    </section>
+  )
+}

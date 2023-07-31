@@ -1,13 +1,22 @@
 import React from 'react';
-import "./Home.css"
-import nature10 from "../../assets/images/nature10.png";
+import StickyBar from '../../Components/StickyBar/StickyBar';
+import NavBar from './NavBar/NavBar';
+import DisplayCards from '../../Components/DisplayCards/DisplayCards';
+import PageImage from './PageImage/PageImage';
+import MovingCards from './MovingCards/MovingCards';
+import Testimony from './Testimony/Testimony';
+import Footer from '../../Components/Footer/Footer';
 
-export const Home = () =>  {
+export default function Home () {
   return (
-    <div className='Home'>
-      <div>
-        <img src={nature10} alt="nature" />
-      </div>
+    <div>
+      <StickyBar />
+      <NavBar />
+      <PageImage />
+      <DisplayCards />
+      <MovingCards />
+      <Testimony />
+      <Footer />
     </div>
   )
 }
