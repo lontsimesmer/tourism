@@ -1,25 +1,53 @@
 .Sticky__bar {
+  align-items: center;
   background: #304f47;
-  padding: 15px;
-}
-
-.StickyBar__logo {
   display: flex;
-  float: left;
-  gap: 15px;
-  padding-left: 80px;
+  height: 50px;
 }
 
-.Icons__name {
+.StickyBar__items {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+}
+
+.LeftItems {
+  display: flex;
+  gap: 30px;
+}
+
+.Logo {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+}
+
+.name {
   color: #fff;
-  font-family: Podkova;
-  font-size: 13px;
-  padding-top: 5px;
-  position: relative;
-  right: 2%;
+  font-family: 'Podkova', serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.3px;
 }
 
-.StickyBar__icons img {
-  left: 53%;
-  position: relative;
+.Icons {
+  display: flex;
+  gap: 8px;
+}
+
+.iconfield {
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 24px;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  justify-content: center;
+  width: 24px;
+}
+
+.face {
+  color: #fff;
 }

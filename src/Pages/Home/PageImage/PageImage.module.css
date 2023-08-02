@@ -1,89 +1,119 @@
 .Page__image {
-  background-image: url(../../../assets/images/nature10.png);
+  background-image: url('../../../assets/images/lake-kivu.jpeg');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 720px;
+  min-height: 100vh;
 }
 
 .Image__text {
-  padding: 140px;
-  width: 50%;
+  left: 15%;
+  position: absolute;
+  top: 362px;
 }
 
-.Image__text h1 {
+.subheading {
   color: #fff;
-  font-family: Lora;
-  font-size: 62px;
-}
-
-.Image__text h2 {
-  color: #fff;
-  font-family: Mulish;
-  font-size: 18px;
-  font-weight: 400;
-  margin-top: -40px;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: -30px;
 }
 
 .Arrow__icons {
+  align-items: center;
   display: flex;
-  gap: 75%;
-  justify-content: center;
+  justify-content: space-between;
+  left: 12%;
+  position: absolute;
+  top: 88%;
+  width: 75%;
 }
 
-.Arrow__icons img {
-  width: 80%;
+.circle {
+  align-items: center;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  width: 45px;
+}
+
+.outLine {
+  color: #fff;
+  font-size: 40px;
+}
+
+.barContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .Horizontal__bar {
+  align-items: center;
   background: #304f47;
   border-radius: 8px;
   display: flex;
-  height: 88px;
-  justify-content: center;
-  left: 10%;
-  padding: 0;
-  position: relative;
-  top: 13%;
-  width: 80%;
+  height: 90px;
+  position: absolute;
+  top: 112%;
+  width: 70%;
 }
 
-.PageImage__input {
-  border: none;
-  border-radius: 8px;
-  font-family: Mulish;
-  font-size: 16px;
-  height: 56px;
-  margin-top: 15px;
-  padding-left: 20px;
-  position: relative;
-  right: 5%;
-  width: 350px;
+.barItems {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 93%;
+}
+
+.search {
+  color: #9a9ab0;
+  cursor: pointer;
+  font-size: 23px;
 }
 
 .search__icon {
   position: relative;
-  right: 9%;
-  top: 40%;
-}
-
-.Booknow__btn {
-  background: #c7923e;
-  border: none;
-  border-radius: 10px;
-  color: #fff;
-  font-size: 16px;
-  height: 55px;
-  left: 5%;
-  margin-top: 20px;
-  position: relative;
-  width: 15%;
+  right: 7%;
+  top: 3%;
 }
 
 .Bar__text {
+  align-items: center;
   display: flex;
+  justify-content: center;
+}
+
+.Headlines {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.dropDown {
+  display: flex;
+  flex-direction: column;
   gap: 25px;
-  margin-top: 20px;
-  position: relative;
-  right: 3%;
+  margin: auto;
+}
+
+.headIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.down {
+  color: #c7923e;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.barBtn {
+  background: #c7923e;
+  border: 1px solid #304f47;
+  border-radius: 8px;
+  height: 55px;
+  width: 160px;
 }
