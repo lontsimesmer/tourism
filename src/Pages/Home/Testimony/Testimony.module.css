@@ -1,49 +1,43 @@
-.Head__title {
-  font-family: lora;
-  margin-top: -50px;
-  text-align: center;
-}
-
 .Multiple__bar {
   align-items: center;
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin: 90px auto;
+  margin: 80px auto;
+  width: 100%;
+}
+
+.boxIcon {
+  align-items: center;
+  background: #304f47;
+  border-radius: 30px;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  width: 250px;
+}
+
+.Box__content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0 5px 0;
   width: 80%;
 }
 
-.Icon__block {
-  background: #304f47;
-  border-radius: 30px;
+.Box__content img {
   height: 50px;
-  line-height: 1.8;
-  padding: 50px;
-  width: 30%;
-}
-
-.Icon__block img {
-  margin-top: -25px;
-  position: relative;
-  left: 35%;
+  width: 50px;
 }
 
 .quality {
   color: #fff;
-  font-family: lora;
+  font-family: "Lora", serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.3;
   letter-spacing: 0.005em;
-  margin: 10px auto;
-  position: relative;
-  right: 10%;
-  text-align: center;
-  width: 100%;
-}
-
-.Headline__title {
-  font-family: lora;
   text-align: center;
 }
 

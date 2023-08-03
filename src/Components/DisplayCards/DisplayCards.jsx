@@ -50,10 +50,12 @@ const card = [
 
 export default function DisplayCards() {
   return (
-    <div>
-      <Group>
+    <section>
+      <Group style={{ margin: "70px 0 50px 0" }}>
         <Heading3>Choose your Package</Heading3>
-        <Heading2>Select your Best Package for your Travel</Heading2>
+        <Heading2>
+          Select your Best Package <br /> for your Travel
+        </Heading2>
       </Group>
       <div className={Styles.Cards__display}>
         {cards.map((Card) => (
@@ -61,8 +63,10 @@ export default function DisplayCards() {
             <img src={Card.image} alt="cards" />
             <div className={Styles.cardItems}>
               <Heading5 className={Styles.Title}>{Card.title}</Heading5>
-              <p className={Styles.Description}>{Card.description}</p>
-              <Button className={Styles.learnMore}>Learn More</Button>
+              <div className={Styles.Button__space}>
+                <p className={Styles.Description}>{Card.description}</p>
+                <Button className={Styles.learnMore}>Learn more</Button>
+              </div>
             </div>
           </div>
         ))}
@@ -73,12 +77,14 @@ export default function DisplayCards() {
             <img src={Card.image} alt="cards" />
             <div className={Styles.cardItems}>
               <Heading5 className={Styles.Title}>{Card.title}</Heading5>
-              <p className={Styles.Description}>{Card.description}</p>
-              <Button className={Styles.learnMore}>Learn More</Button>
+              <div className={Styles.Button__space}>
+                <p className={Styles.Description}>{Card.description}</p>
+                <Button className={Styles.learnMore}>Learn more</Button>
+              </div>
             </div>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

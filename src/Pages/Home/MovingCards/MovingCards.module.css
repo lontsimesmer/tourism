@@ -1,33 +1,38 @@
-.Moving__cards {
-  margin: 0;
-  padding: 0;
-}
-
-.Header__title {
-  font-family: lora;
-  padding: 60px;
-  text-align: center;
-}
-
-.Header__title h3 {
-  margin-top: -40px;
-}
-
 .Arrow__button {
   display: flex;
   gap: 20px;
   justify-content: right;
-  margin-right: 70px;
-  position: relative;
+  width: 95%;
 }
 
-.Arrow__button img {
-  width: 50px;
-}
-
-.Moving__cards {
+.buttonLeft {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #c7923e;
+  border-radius: 8px;
   display: flex;
-  gap: 25px;
+  justify-content: center;
+  width: 56px;
+}
+
+.buttonRight {
+  align-items: center;
+  background-color: #c7923e;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  width: 56px;
+}
+
+.left {
+  color: #c7923e;
+  font-size: 24px;
+}
+
+.movingCards {
+  display: flex;
+  gap: 40px;
   justify-content: center;
   margin: 50px auto;
   width: 10%;
@@ -36,26 +41,18 @@
 .City img {
   border: 5px solid #304f43;
   border-radius: 50px;
-  height: 270px;
-  width: 270px;
+  height: 300px;
+  width: 300px;
 }
 
-.City h5 {
-  bottom: 3%;
-  font-size: 39px;
-  padding-left: 38px;
-  position: relative;
-  right: 10%;
+.cityItems {
+  display: flex;
+  flex-direction: column;
+  margin: -15px auto;
+  width: 100%;
 }
 
-.City p {
-  bottom: 12%;
-  color: #9a9ab0;
-  font-family: Mulish;
-  font-size: 16px;
-  margin: 0 auto;
-  padding-left: 38px;
-  position: relative;
-  right: 10%;
-  width: 95%;
+.Description {
+  margin-top: -40px;
+  width: 90%;
 }
